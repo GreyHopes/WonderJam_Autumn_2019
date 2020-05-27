@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36b2099330befce47aba3f9a8e986901, type: 3}
+  m_Name: SoundBank
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: son_tir
+    clip: {fileID: 8300000, guid: 77b42b23b8b4dcb42b906c0aaa8101d9, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    minDistance: 0
+    maxDistance: 500
+    source: {fileID: 0}
+  - name: destruction_ennemi
+    clip: {fileID: 8300000, guid: 052703842f2a9e2488523b0d830f2804, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    minDistance: 0
+    maxDistance: 500
+    source: {fileID: 0}
+  - name: destruction_ally
+    clip: {fileID: 8300000, guid: df1ef5178a4f194479a8a75d0bac83ad, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    minDistance: 0
+    maxDistance: 500
+    source: {fileID: 0}
+  - name: destruction_base
+    clip: {fileID: 8300000, guid: de658d21f0e8510479153e3b3b3ecdcf, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    minDistance: 0
+    maxDistance: 500
+    source: {fileID: 0}
+  - name: ui_click
+    clip: {fileID: 8300000, guid: 611dc8a8f54f1ab408627340ddccca6f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    minDistance: 0
+    maxDistance: 500
+    source: {fileID: 0}
+  - name: gameover
+    clip: {fileID: 8300000, guid: 805d8f6ecac0db142b2c93ed3f35f032, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    minDistance: 0
+    maxDistance: 500
+    source: {fileID: 0}
+  - name: buy_upgrade
+    clip: {fileID: 8300000, guid: f0487d2a8023f2b45a72fd3687659270, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    minDistance: 0
+    maxDistance: 500
+    source: {fileID: 0}
+  soundLists: []
+  musics:
+  - name: main_music
+    clip: {fileID: 8300000, guid: 12b3450d94ee54140a1179f8aae158ed, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    minDistance: 0
+    maxDistance: 500
+    source: {fileID: 0}
+  - name: menumusic
+    clip: {fileID: 8300000, guid: bf7181fbbc7f10441932efe3f10d9b7b, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    minDistance: 0
+    maxDistance: 500
+    source: {fileID: 0}
